@@ -1,7 +1,6 @@
 # SPH Fluid Simulation — Navier-Stokes in C++
 
 ![Fluid sim demo](Fluid_Sim_Water_Demonstration.gif)
-![Fluid sim demo](Fluid_sim_Honey_demonstration.gif)
 
 2D Smoothed Particle Hydrodynamics (SPH) simulation in real time, built in C++ with [raylib](https://www.raylib.com/). The particle physics include actual Navier-Stokes terms with their proper kernels (density, pressure, viscosity).
 
@@ -94,3 +93,5 @@ This is a good example of how a simulation can look visually correct while quiet
 - Surface tension term
 - Variable particle mass/size for multi-fluid mixing
 - GPU compute shader for the neighbour search at much higher particle counts
+
+![Fluid sim demo](Fluid_sim_Honey_demonstration.gif)
