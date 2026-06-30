@@ -1,5 +1,8 @@
 # SPH Fluid Simulation — Navier-Stokes in C++
 
+![Fluid sim demo](Fluid_Sim_Water_Demonstration.gif)
+![Fluid sim demo](Fluid_sim_Honey_demonstration.gif)
+
 2D Smoothed Particle Hydrodynamics (SPH) simulation in real time, built in C++ with [raylib](https://www.raylib.com/). The particle physics include actual Navier-Stokes terms with their proper kernels (density, pressure, viscosity).
 
 The Navier-Stokes equation solution is one of the [Millennium Prize Problems](https://en.wikipedia.org/wiki/Millennium_Prize_Problems), to which anyone who solves it will receive one million US dollars. The Navier-Stokes equation has no current general solution but is currently the most accurate way of illustrating the motion and physics behind fluids.
